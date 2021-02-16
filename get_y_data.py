@@ -79,6 +79,7 @@ def getYPricesReportDateDateAndTargetDate(x, d, modifier=365):
 
 
 if __name__ == '__main__':
+    # Create x and y csv files takes and extremely long time to run (several hours)
     x = getXDataMerged()
     x.to_csv('Annual_Stock_Price_Fundamentals.csv')
 
